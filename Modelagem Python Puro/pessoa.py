@@ -3,10 +3,11 @@ class Pessoa(object):
         self.nome = nome
         self.salario = salario
         self.dia_de_pagamento = dia_de_pagamento
-        self.gastos = []
+        self.gastos_dia = []
+        self.gastos_mes = []
 
     def emitir_relatorio_diario(self):
-        
+        pass
 
     def emitir_relatorio_semanal(self):
         pass
