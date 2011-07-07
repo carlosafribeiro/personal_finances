@@ -1,5 +1,5 @@
 class Gasto(object):
-    def __init__(self, descricao, categoria_gasto, quantidade, valor_total, fixo=False):
+    def __init__(self, descricao, categoria_gasto, quantidade, valor_total):
         self.descricao = descricao
         self.categoria_gasto = categoria_gasto
         self.quantidade = quantidade
