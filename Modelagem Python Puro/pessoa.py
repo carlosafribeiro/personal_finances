@@ -4,6 +4,7 @@ class Pessoa(object):
         self.salario = salario
         self.dia_de_pagamento = dia_de_pagamento
         self.gastos_dia = []
+        self.gastos_semana = []
         self.gastos_mes = []
 
     def emitir_relatorio_diario(self):
