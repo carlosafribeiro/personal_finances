@@ -4,7 +4,6 @@ class Gasto(object):
         self.categoria_gasto = categoria_gasto
         self.quantidade = quantidade
         self.valor_total = valor_total
-        self.fixo = fixo
 
 class CategoriaGasto(object):
     def __init__(self, descricao, peso):
